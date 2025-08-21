@@ -7,7 +7,7 @@ on:
       - 'packages/container/**'
       - '.github/workflows/container.yml'
 
-default:
+defaults:
   run:
     working-directory: packages/container
 
